@@ -5,6 +5,9 @@ Built for reliability and ease of integration in healthcare environments, it pro
 clinicians and researchers.
 
 
+<img width="960" alt="Hero-Section" src="https://github.com/user-attachments/assets/5cb341bb-d2e3-4891-8c78-6d6bfb97a3b1" />
+
+
 ### Research Foundation
 
 This project implements diagnosis logic and selective feature techniques inspired by:
@@ -24,6 +27,8 @@ We adopted the paper’s target class logic, addressed missing values, and refin
 - 📊 Confidence scoring and interpretable output labels
 - 🖥️ UI-friendly response structure for frontend integration
 
+
+<img width="960" alt="Prediction-Section" src="https://github.com/user-attachments/assets/5256dba5-a363-45c5-928c-f19fa3a6f4c2" />
 
 
 ### Tech Stack
@@ -77,6 +82,9 @@ We adopted the paper’s target class logic, addressed missing values, and refin
   "confidence": 0.92
 }
 ```
+
+
+<img width="960" alt="Result-Section" src="https://github.com/user-attachments/assets/0c2cb36f-66e3-4a39-a86c-125963a842cd" />
 
 
 
