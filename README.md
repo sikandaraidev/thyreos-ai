@@ -1,11 +1,21 @@
-```markdown
-# 🧠 ThyreosAI — Clinical Thyroid Risk Predictor
+### ThyreosAI — Clinical Thyroid Risk Predictor
 
-**ThyreosAI** is a machine learning–powered clinical decision support tool that predicts thyroid conditions based on patient data. Built for reliability and ease of integration in healthcare environments, it provides accurate risk classification to assist clinicians and researchers.
+**ThyreosAI** is a machine learning–powered clinical decision support tool that predicts thyroid conditions based on patient data.
+Built for reliability and ease of integration in healthcare environments, it provides accurate risk classification to assist
+clinicians and researchers.
 
----
 
-## 🚀 Features
+### Research Foundation
+
+This project implements diagnosis logic and selective feature techniques inspired by:
+
+"Thyroid Disease Prediction Using Selective Features and Machine Learning Techniques"
+[📖 View Paper on PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC9405591/)
+
+We adopted the paper’s target class logic, addressed missing values, and refined diagnosis classification using structured domain rules for better clinical alignment.
+
+
+### Features
 
 - ✅ Cleaned & preprocessed dataset from UCI ML Repository (via Kaggle)
 - 🧪 Trained multi-class classifier on selected clinical features
@@ -14,9 +24,9 @@
 - 📊 Confidence scoring and interpretable output labels
 - 🖥️ UI-friendly response structure for frontend integration
 
----
 
-## 📦 Tech Stack
+
+### Tech Stack
 
 - **Backend**: Python, FastAPI, Pydantic
 - **ML**: scikit-learn, NumPy, pandas
@@ -24,9 +34,9 @@
 - **Deployment**: Designed for Heroku, Vercel, or local use
 - **Dataset**: UCI Thyroid Disease Dataset (Kaggle version)
 
----
 
-## 🧬 Prediction Classes
+
+### Prediction Classes
 
 | Class ID | Label     | Meaning                            |
 |----------|-----------|------------------------------------|
@@ -38,9 +48,8 @@
 
 
 
----
 
-## 📈 Example API Usage
+### Example API Usage
 
 **Endpoint:** `POST /predict/`  
 **Payload:**
@@ -69,15 +78,15 @@
 }
 ```
 
----
 
-## 📚 Dataset
+
+### Dataset
 
 This project uses a preprocessed version of the [Thyroid Disease Dataset](https://archive.ics.uci.edu/ml/datasets/thyroid+disease) from the UCI Machine Learning Repository. The dataset was cleaned (missing values removed), categorical features encoded, and diagnosis labels grouped into meaningful classes based on clinical literature.
 
----
 
-## 📌 Setup Instructions
+
+### Setup Instructions
 
 ```bash
 # Clone the repo
@@ -91,22 +100,22 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
----
 
-## 📖 License
+
+### License
 
 This project is licensed under the CC BY-NC License.
 
----
 
-## 🤝 Contributing
+
+### Contributing
 
 Contributions, issues, and feature requests are welcome!
 Please open an issue to discuss before submitting a pull request.
 
----
 
-## 👨‍⚕️ About
+
+### About
 
 ThyreosAI was developed as part of an academic–clinical initiative to explore how machine learning can support early thyroid risk prediction using publicly available health data. The tool is intended to assist clinicians in fast, explainable triaging of thyroid-related conditions while being accessible for researchers and data scientists.
 
