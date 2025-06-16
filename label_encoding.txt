@@ -1,0 +1,7 @@
+# Label Encoding/One-Hot Encoding for Categorical Attributes (Columns)
+
+'on thyroxine' = {True: 1, False: 0}
+
+'sex' = {'F': 0, 'M': 1} 
+
+referral_soruce: {'STMW': 0, 'SVHC': 1, 'SVHD': 2, 'SVI': 3, 'WEST': 4, 'other': 5}
